@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #d9d9d9;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  background-color: #e6b800;
+  padding: 10px;
+}
+
+.heading {
+  color: white;
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+}
+
+footer {
+  background-color: linear-gradient(to right, #FFD700, #FFAE42);
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.delete{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.deletebtn{
+  background-color: silver;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.dancing-script-okay {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.add {
+  font-size: 40px;
+  color: linear-gradient(to right, #FFD700, #FFAE42);
+  background-color: white;
+}
+
+.titlefield,
+.materialfield {
+  color: black;
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+  border: none;
+  outline: none;
+  /* Removes the blue border on focus */
+  background-color: transparent;
+  /* Optional: Makes the background transparent */
+  font-size: 16px;
+  padding: 10px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px;
+}
+
+.adder {
+  font-size: 40px;
+  color: white;
+  background-color: #e6b800;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.adder:hover {
+  transform: scale(1.2);
+}
+
+.noteadder {
+  margin: auto;
+  margin-top: 60px;
+  width: 50%;
+  background-color: white;
+  width: 200px;
+}
+
+.tiles{
+  padding: "10px";
+  margin: "10px 0";
+  background-color: #ccc;
+  border: "1px solid #ccc";
+}
+
